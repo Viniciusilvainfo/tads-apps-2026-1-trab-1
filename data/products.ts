@@ -1,0 +1,58 @@
+import { Product } from '../types/product';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: '1',
+    name: 'Smartphone X',
+    price: 1299.99,
+    image: 'https://via.placeholder.com/400x400?text=Smartphone+X',
+    description: 'Smartphone de última geração com câmera 108MP, processador topo de linha e bateria 5000mAh.',
+    rating: 4.8,
+    reviews: 1250,
+  },
+  {
+    id: '2',
+    name: 'Fone Bluetooth Premium',
+    price: 299.99,
+    image: 'https://via.placeholder.com/400x400?text=Fone+Bluetooth',
+    description: 'Fone de ouvido sem fio com cancelamento de ruído ativo e até 30 horas de bateria.',
+    rating: 4.6,
+    reviews: 890,
+  },
+  {
+    id: '3',
+    name: 'Smartwatch Ultra',
+    price: 599.99,
+    image: 'https://via.placeholder.com/400x400?text=Smartwatch+Ultra',
+    description: 'Relógio inteligente com monitor cardíaco, GPS integrado e resistência à água até 100m.',
+    rating: 4.7,
+    reviews: 654,
+  },
+  {
+    id: '4',
+    name: 'Carregador Rápido 65W',
+    price: 89.99,
+    image: 'https://via.placeholder.com/400x400?text=Carregador+65W',
+    description: 'Carregador USB-C ultra rápido com suporte a múltiplos dispositivos simultaneamente.',
+    rating: 4.5,
+    reviews: 2100,
+  },
+  {
+    id: '5',
+    name: 'Câmera Digital HD',
+    price: 799.99,
+    image: 'https://via.placeholder.com/400x400?text=Camera+Digital',
+    description: 'Câmera compacta com sensor full-frame, 4K, zoom óptico 30x e estabilização de imagem.',
+    rating: 4.9,
+    reviews: 456,
+  },
+  {
+    id: '6',
+    name: 'Tablet 10"',
+    price: 549.99,
+    image: 'https://via.placeholder.com/400x400?text=Tablet+10',
+    description: 'Tablet com tela AMOLED 10", processador Snapdragon 8, 128GB armazenamento.',
+    rating: 4.4,
+    reviews: 723,
+  },
+];
